@@ -18,7 +18,7 @@ attr_accessor :name
  end
  
  def artists
-   song.map(&:artist)
+   songs.map(&:artist)
  end
  
  def add_song(song)
