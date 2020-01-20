@@ -23,6 +23,6 @@ class Patient
   end
 
   def doctors
-    Appointment.map(&:doctor)
+    appointmen&:doctor)
   end
 end
